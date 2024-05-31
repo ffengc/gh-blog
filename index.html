@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fengcheng Yu's Blog</title>
+    <link rel="shortcut icon" href="assets/img/logo.png">
+    <link rel="stylesheet" href="red.css" type="text/css">
+    <style>
+        /* body {
+            margin-left: 320px;
+        } */
+
+
+        .sidebar {
+            width: 33%;
+            float: left;
+            padding-right: 20px;
+            padding-left: 0px;
+            height: 100vh;
+            box-sizing: border-box;
+            overflow: auto;
+            border-right: 2px solid #ccc;
+        }
+
+        .main-content {
+            width: 67%;
+            float: right;
+            padding-left: 20px;
+            padding-right: 0px;
+            height: 100vh;
+            overflow: auto;
+            box-sizing: border-box;
+        }
+
+        #circle-img {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            display: block;
+            margin-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        .blog-item {
+            display: flex;
+            width: 100%;
+        }
+
+        .blog-image {
+            width: 150px;
+            height: 100px;
+            margin-right: 20px;
+            object-fit: cover;
+            /* Ensure the images fit nicely */
+        }
+
+        .blog-info {
+            flex-grow: 1;
+            /* Make the blog info take the remaining space */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            /* Aligns the title and date properly */
+        }
+
+        ul li a {
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .date {
+            color: #666;
+            margin-top: 10px;
+            /* Adds space between the link and the date */
+        }
+
+        ul li a:hover {
+            background-color: #f4f4f4;
+        }
+
+        .kaishu {
+            font-family: 'KaiTi', '楷体';
+            /* 指定字体为楷书 */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sidebar">
+        <br><br>
+        <img src="assets/img/bio.jpg" id="circle-img">
+        <h1 style="color: black;">Fengcheng Yu</h1>
+        <br>
+        <p style="line-height: 1.8;">
+            <a href="mailto:yufch3@mail2.sysu.edu.cn">
+                <img src="assets/img/gmail.png" width="20px" style="margin-bottom:-3px"> Mail: yufch3@mail2.sysu.edu.cn
+            </a><br>
+        </p>
+        <p style="line-height: 1.8;">
+            <a href="https://github.com/ffengc">
+                <img src="assets/img/github.jpeg" width="20px" style="margin-bottom:-3px">
+                GitHub: https://github.com/ffengc
+            </a><br>
+        </p>
+        <p style="line-height: 1.8;">
+            <a href="https://blog.csdn.net/Yu_Cblog">
+                <img src="assets/img/csdn-logo.png" width="20px" style="margin-bottom:-3px">
+                CSDN Blog homepage
+            </a><br>
+        </p>
+        <p style="line-height: 1.8;">
+            <a href="https://ffengc.github.io/">
+                <img src="assets/img/LinkedIn.png" width="20px" style="margin-bottom:-3px">
+                About me
+            </a><br>
+        </p>
+    </div>
+    <div class="main-content">
+        <div id="toptitle">
+            <h1 style="color: black;">🧍‍♂️Biography</h1>
+            <code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;update time: 2024.05.31</code>
+        </div>
+        <p>👋I am Fengcheng Yu, a undergrad at <a href="https://www.sysu.edu.cn/">Sun Yat-sen University</a>
+            . My interests primarily focus on
+            My interests mainly focus on machine learning, deep learning, artificial intelligence,
+            virtualization development, and big data development.
+            I am also lucky to have had opportunities to collaborate with <a
+                href="https://www.ece.pku.edu.cn/info/1053/2659.htm">Calvin Yu-Chian Chen</a> (Director of
+            AI for Science (AI4S) at Peking University).
+            <br><br>
+            <strong>Here is my blog page.</strong><br>
+            <strong>more blogs can be seen is the my <a href="https://blog.csdn.net/Yu_Cblog">CSDN Web: Yu_Cblog</a></strong>
+        </p>
+        <h2>📚<strong>Blogs</strong></h2>
+        <ul>
+            <li>
+                <div class="blog-item">
+                    <img src="blogs/Apache-and-Nginx/assets/2.png" class="blog-image">
+                    <div class="blog-info">
+                        <a href="./blogs/Apache-and-Nginx/Apache-and-Nginx.html" target="_blank">
+                            <strong class="kaishu">Apache和Nginx是什么？｜Nginx和Reactor是什么？｜网路IO的本质｜阻塞队列｜异步非阻塞IO</strong>
+                        </a>
+                        <span class="date">2023-08</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="blog-item">
+                    <img src="blogs/what-is-io/assets/1.png" class="blog-image">
+                    <div class="blog-info">
+                        <a href="./blogs/what-is-io/what-is-io.html" target="_blank">
+                            <strong class="kaishu">什么是IO？IO的本质？｜如何让IO变得高效？何为高效？｜异步IO｜多路转接｜reactor模式</strong>
+                        </a>
+                        <span class="date">2023-08</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="blog-item">
+                    <img src="blogs/docker-column/docker.png" class="blog-image">
+                    <div class="blog-info">
+                        <a href="./blogs/docker-column/index.html" target="_blank">
+                            <strong class="kaishu">docker专栏-docker从入门到熟悉全解析栏目</strong>
+                        </a>
+                        <span class="date">2023-04</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="blog-item">
+                    <img src="blogs/how-to-use-git/git.png" class="blog-image">
+                    <div class="blog-info">
+                        <a href="./blogs/how-to-use-git/how-to-use-git.html" target="_blank">
+                            <strong class="kaishu">Git企业开发控制理论和实操-从入门到熟悉</strong>
+                        </a>
+                        <span class="date">2023-09</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div style="clear: both;"></div>
+    <div class="footer">
+        <center>
+            <p style="color: darkgray;"> ©Fengcheng Yu 2024</p>
+        </center>
+    </div>
+</body>
+
+</html>
