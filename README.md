@@ -1,5 +1,3 @@
-Here's the translated Markdown content for your blog configuration repository:
-
 # Blog Configuration Repository
 
 - **[简体中文](./README-cn.md)**
